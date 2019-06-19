@@ -1,0 +1,107 @@
+{
+    "items":[
+    {   
+            "id":1,
+            "src":"https://i.imgur.com/O0jvt5o.png",
+            "alt":"T-shirt",
+            "name":"Baseball Tee",
+            "care":"Machine washable and dryable. Do not bleach, iron, or dry clean",
+            "fiber":"100% Acrylic",
+            "desc":"This is a cool t-shirt. Doens't seem to help with BJJ",
+            "price":35,
+            "type":"T-Shirt",
+            "sizes":{
+                "small":"Small",
+                "medium":"Sold Out",
+                "large":"Large",
+                "XL":"XL"
+
+            }
+        },{   
+            "id":2,
+            "src":"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/14993436_1784418935159789_5995713994084239009_n.jpg?_nc_cat=111&_nc_oc=AQmLSjXxyiGOToXkA9Zjj4aNa9MPokZOo2kRzDT1614gHL4Sm7DB62xbA_ef4eH6Bu8&_nc_ht=scontent-iad3-1.xx&oh=ea6fbb46d8c08d19850f9799f21da7f1&oe=5D8F4BEC",
+            "alt":"Shorts",
+            "name":"Shorts",
+            "care":"Machine washable and dryable. Do not bleach, iron, or dry clean",
+            "fiber":"100% Acrylic",
+            "price":30,
+            "type":"Shorts",
+            "desc":"Shorts come prestained with sweat",
+            "sizes":{
+                "small":"Sold Out",
+                "medium":"Medium",
+                "large":"Large",
+                "XL":"XL"
+
+            }
+        },{   
+            "id":3,
+            "src":"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/14915184_10157639783705484_5565487836867045428_n.jpg?_nc_cat=103&_nc_oc=AQkQi4T5-FgBBbWpjiCK0fRn6f5GPoFxTlchw8OvZKNfFDfVNOde8aTlrevnbd3fugQ&_nc_ht=scontent-iad3-1.xx&oh=ce7fb3a0621a7878382a5dec5bac17b8&oe=5D924473",
+            "alt":"GI",
+            "name":"GI",
+            "care":"Machine washable and dryable. Do not bleach, iron, or dry clean",
+            "fiber":"100% Acrylic",
+            "price":30,
+            "type":"GI",
+            "desc":"Beast",
+            "sizes":{
+                "small":"Small",
+                "medium":"Sold Out",
+                "large":"Large",
+                "XL":"Sold Out"
+
+            }
+        },{   
+            "id":4,
+            "src":"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/30581387_2036628259938854_8087230226444058624_n.jpg?_nc_cat=109&_nc_oc=AQlsFyMfmYqRd20NK4CBk7y1Ve-3YTxRDjcmrHKxTFzVGvajOoCn-U-WHf1PeoMXf28&_nc_ht=scontent-iad3-1.xx&oh=84bb327e853a60c2f67ebfce8a62012a&oe=5D927AE0",
+            "alt":"Patch",
+            "name":"Patch",
+            "care":"Machine washable and dryable. Do not bleach, iron, or dry clean",
+            "fiber":"100% Acrylic",
+            "price":30,
+            "type":"Patch",
+            "desc":"Not our patch but you get the idea",
+            "sizes":{
+                "small":"Small",
+                "medium":"Sold Out",
+                "large":"Large",
+                "XL":"XL"
+
+            }
+        },{   
+            "id":5,
+            "src":"https://i.imgur.com/OMz4a4V.png",
+            "alt":"Rashguard",
+            "name":"Long Sleeve Rash Guard",
+            "care":"Machine washable and dryable. Do not bleach, iron, or dry clean",
+            "fiber":"100% Acrylic",
+            "price":30,
+            "type":"Rash Guard",
+            "desc":"Sick Rash Guard",
+            "sizes":{
+                "small":"Sold Out",
+                "medium":"Sold Out",
+                "large":"Large",
+                "XL":"XL"
+
+            }
+        },{   
+            "id":6,
+            "src":"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/30515770_2036627743272239_2004699753757016064_n.jpg?_nc_cat=100&_nc_oc=AQnKbQzesE8l43jGj1dB6Cy_akRvCsZwaxfX-qkiH5gO44Kwx8_nJZCwFkGKaDOP64E&_nc_ht=scontent-iad3-1.xx&oh=19191038183153fb0348f5d68f02bab5&oe=5D8ED2F4",
+            "alt":"T-shirt",
+            "name":"T-shirt",
+            "care":"Machine washable and dryable. Do not bleach, iron, or dry clean",
+            "fiber":"100% Acrylic",
+            "desc":"This is a cool t-shirt. Doens't seem to help with BJJ",
+            "price":30,
+            "type":"T-Shirt",
+            "sizes":{
+                "small":"Sold Out",
+                "medium":"Sold Out",
+                "large":"Sold Out",
+                "XL":"XL"
+
+            }
+        }
+    ]
+}

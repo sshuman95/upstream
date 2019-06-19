@@ -1,0 +1,23 @@
+body,html{
+  margin:0;
+  padding:0;
+}
+
+#banner{
+  height:22em;
+  min-width:20em;
+  max-width:40em;
+  
+}
+
+#bannerContainer{
+  display:flex;
+  justify-content: center;
+}
+
+.status{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:0;
+}

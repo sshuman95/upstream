@@ -1,0 +1,95 @@
+import React from 'react';
+import data from './items.json';
+import StripeCheckout from 'react-stripe-checkout'
+import './items.css';
+
+class ItemList extends React.Component{
+    constructor(props){
+        super(props);
+        this.state ={
+            size:'Please Select A Size'
+        }
+        this.changeSize =this.changeSize.bind(this)
+    };
+
+    changeSize(event){
+        let size = event.target.value;
+        this.setState({
+            size:size
+        })
+
+    }
+    
+    render(){
+    let list = data.items.map(item=>{
+        if(this.props.status === 'Gis' & item.type ==='GI'){
+            return <div className='item'>
+                <div className='name'>{item.name}</div>
+                <img src={item.src} alt={item.name}/>
+                <div className='desc'>{item.desc}</div>
+                <div className ='type'>{item.type}</div>
+                <div className='price'>${item.price}</div>
+                <form onChange={this.changeSize}>
+                <input type="radio" name="gender" value="Small"/> Small<br/>
+                <input type="radio" name="gender" value="Medium"/>Medium<br/>
+                <input type="radio" name="gender" value="Large"/>Large<br/>
+                <input type="radio" name="gender" value="XL"/>XL<br/>
+                </form>
+                <div>{this.state.size==='Please Select A Size'?'Please Select A Size':''}</div>
+                {this.state.size != 'Please Select A Size'?<StripeCheckout/>:""}
+            </div>
+        } else if(this.props.status === 'T-Shirts' & item.type ==='T-Shirt'){
+            return <div className='item'> 
+                <div className='name'>{item.name}</div>
+                <img src={item.src} alt={item.name}/>
+                <div className='desc'>{item.desc}</div>
+                <div className ='type'>{item.type}</div>
+                <div className='price'>${item.price}</div>
+                <form onChange={this.changeSize}>
+                <input type="radio" name="gender" value="Small"/> Small<br/>
+                <input type="radio" name="gender" value="Medium"/>Medium<br/>
+                <input type="radio" name="gender" value="Large"/>Large<br/>
+                <input type="radio" name="gender" value="XL"/>XL<br/>
+                </form>
+                <div>{this.state.size==='Please Select A Size'?'Please Select A Size':''}</div>
+                {this.state.size != 'Please Select A Size'?<StripeCheckout/>:""}
+            </div>
+        } else if (this.props.status === 'Shorts' & item.type ==='Shorts'){
+            return <div className='item'>
+                <div className='name'>{item.name}</div>
+                <img src={item.src} alt={item.name}/>
+                <div className='desc'>{item.desc}</div>
+                <div className ='type'>{item.type}</div>
+                <div className='price'>${item.price}</div>
+                <form onChange={this.changeSize}>
+                <input type="radio" name="gender" value="Small"/> Small<br/>
+                <input type="radio" name="gender" value="Medium"/>Medium<br/>
+                <input type="radio" name="gender" value="Large"/>Large<br/>
+                <input type="radio" name="gender" value="XL"/>XL<br/>
+                </form>
+                <div>{this.state.size==='Please Select A Size'?'Please Select A Size':''}</div>
+                {this.state.size != 'Please Select A Size'?<StripeCheckout/>:""}
+            </div>
+        } else if(this.props.status === 'Rash Guards' & item.type ==='Rash Guard'){
+            return <div className='item'>
+                <div className='name'>{item.name}</div>
+                <img src={item.src} alt={item.name}/>
+                <div className='desc'>{item.desc}</div>
+                <div className ='type'>{item.type}</div>
+                <div className='price'>${item.price}</div>
+                <form onChange={this.changeSize}>
+                <input type="radio" name="gender" value="Small"/> Small<br/>
+                <input type="radio" name="gender" value="Medium"/>Medium<br/>
+                <input type="radio" name="gender" value="Large"/>Large<br/>
+                <input type="radio" name="gender" value="XL"/>XL<br/>
+                </form>
+                <div>{this.state.size==='Please Select A Size'?'Please Select A Size':''}</div>
+                {this.state.size != 'Please Select A Size'?<StripeCheckout/>:""}
+            </div>
+        }
+    })
+    return list
+}
+};
+
+export default ItemList;

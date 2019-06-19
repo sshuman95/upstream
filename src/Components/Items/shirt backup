@@ -1,0 +1,52 @@
+import React from 'react';
+import data from './items.json';
+import StripeCheckout from 'react-stripe-checkout'
+import './items.css';
+
+class Shirt extends React.Component{
+    constructor(props){
+        super(props);
+        this.state ={
+            size:'Please Select A Size'
+        }
+        this.changeSize =this.changeSize.bind(this)
+    };
+
+    changeSize(event){
+        let size = event.target.value;
+        this.setState({
+            size:size
+        })
+        if(event.target.value === 'Sold Out'){
+            document.getElementById('test').innerHTML = 'Sold Out'
+        } else {
+            document.getElementById('test').innerHTML = ''
+        }
+
+    }
+    
+    checkInput(event){
+
+    }
+    
+    render(){
+        let Shirt = data.items.map(item=>{
+            if( item.type ==='T-Shirt'){
+                return <div className='item'>
+                    <div className='name'>{item.name}</div>
+                    <img src={item.src} alt={item.name}/>
+                    <div className='desc'>{item.desc}</div>
+                    <div className ='type'>{item.type}</div>
+                    <div className='price'>${item.price}</div>
+                    <form onChange={this.changeSize}>
+                    <input type="radio" name="gender" value={item.sizes.small}/> Small<br/>
+                    <input type="radio" name="gender" value={item.sizes.medium}/>Medium<br/>
+                    <input type="radio" name="gender" value={item.sizes.large}/>Large<br/>
+                    <input type="radio" name="gender" value={item.sizes.XL}/>XL<br/>
+                    </form>
+                    <div id='test'></div>
+                    {(this.state.size != 'Please Select A Size' && this.state.size !='Sold Out')?<StripeCheckout/>:''}
+                </div>
+            }})
+            return Shirt}};
+            export default Shirt;
