@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sshuman95/upstream/tree/gh-pages/static/css/main.97b305c7.chunk.css",
-    "main.js": "/sshuman95/upstream/tree/gh-pages/static/js/main.d72dc867.chunk.js",
-    "main.js.map": "/sshuman95/upstream/tree/gh-pages/static/js/main.d72dc867.chunk.js.map",
-    "runtime~main.js": "/sshuman95/upstream/tree/gh-pages/static/js/runtime~main.1c4b6e27.js",
-    "runtime~main.js.map": "/sshuman95/upstream/tree/gh-pages/static/js/runtime~main.1c4b6e27.js.map",
-    "static/js/2.1d94dcca.chunk.js": "/sshuman95/upstream/tree/gh-pages/static/js/2.1d94dcca.chunk.js",
-    "static/js/2.1d94dcca.chunk.js.map": "/sshuman95/upstream/tree/gh-pages/static/js/2.1d94dcca.chunk.js.map",
-    "index.html": "/sshuman95/upstream/tree/gh-pages/index.html",
-    "precache-manifest.48dff3bce4a260f8a8272cf9cfbf7aa2.js": "/sshuman95/upstream/tree/gh-pages/precache-manifest.48dff3bce4a260f8a8272cf9cfbf7aa2.js",
-    "service-worker.js": "/sshuman95/upstream/tree/gh-pages/service-worker.js",
-    "static/css/main.97b305c7.chunk.css.map": "/sshuman95/upstream/tree/gh-pages/static/css/main.97b305c7.chunk.css.map"
+    "main.css": "/upstream/static/css/main.97b305c7.chunk.css",
+    "main.js": "/upstream/static/js/main.d72dc867.chunk.js",
+    "main.js.map": "/upstream/static/js/main.d72dc867.chunk.js.map",
+    "runtime~main.js": "/upstream/static/js/runtime~main.f05df6ec.js",
+    "runtime~main.js.map": "/upstream/static/js/runtime~main.f05df6ec.js.map",
+    "static/js/2.1d94dcca.chunk.js": "/upstream/static/js/2.1d94dcca.chunk.js",
+    "static/js/2.1d94dcca.chunk.js.map": "/upstream/static/js/2.1d94dcca.chunk.js.map",
+    "index.html": "/upstream/index.html",
+    "precache-manifest.23a9f32a084cea8965fc97ac493eef23.js": "/upstream/precache-manifest.23a9f32a084cea8965fc97ac493eef23.js",
+    "service-worker.js": "/upstream/service-worker.js",
+    "static/css/main.97b305c7.chunk.css.map": "/upstream/static/css/main.97b305c7.chunk.css.map"
   }
 }
