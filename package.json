@@ -47,13 +47,5 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC",
-  "homepage": "https://sshuman95.github.io/upstream-store",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sshuman95/upstream-store.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sshuman95/upstream-store/issues"
-  }
+  "license": "ISC"
 }
